@@ -1,6 +1,6 @@
 # docker-web1
 very simple web server for testing loadbalance of docker swarm 。
-two server is provided : 
+two server images are provided : 
 + aneotop/web1 , which is based on nodejs  
 
 	> docker run --rm -p 80:8888 aneotop/web 
