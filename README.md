@@ -1,5 +1,6 @@
 # docker-web1
-very simple web server for testing loadbalance of docker swarm 
+very simple web server for testing loadbalance of docker swarm 。
+two server is provided : one is based nodejs  , and anthor is based busybox and nc ,locating at nc-web.
 
 # install docker
 _centOs 7_
@@ -43,4 +44,6 @@ run command at other 2 machines
 
 # deploy web server 
 	docker stack deploy -c docker-compose.yml web
+	#or
+	docker stack deploy -c nc-web/docker-compose.yml web
 	
