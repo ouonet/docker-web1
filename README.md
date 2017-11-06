@@ -26,7 +26,9 @@ to deploy swarm cluster , 3 machines are needed.
 	#if your machine has only one ethernet interface card, the option of advertise-addr can be ommited
 ## step2 add other 2 machines into manager
 run command at first machine
+
 	docker swarm join-token manager
+
 get following hints:
 	
 	To add a manager to this swarm, run the following command:
