@@ -18,8 +18,8 @@ _ubuntu 16_
 
 	bash script/i4ubuntu.sh
 
-# init swarm clust
-to deploy swarm clust , 3 machines are needed.
+# init swarm cluster
+to deploy swarm cluster , 3 machines are needed.
 ## step1 init manage node 
 	#select one of these 3 machines,run:
 	docker swarm init --advertise-addr localip
