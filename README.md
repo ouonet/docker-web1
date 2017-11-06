@@ -27,7 +27,7 @@ run command at other 2 machines
 ## step3 to add more workers to swarm clust
 run command at first machine
 
-        docker swarm join-token worker
+	docker swarm join-token worker
 
 get following hints:
 
