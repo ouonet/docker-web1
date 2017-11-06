@@ -19,8 +19,7 @@ run command at first machine
 get following hints:
 	
 	To add a manager to this swarm, run the following command:
-
-    	docker swarm join --token SWMTKN-1-1rd7brd57191zer4nw4if44oh524b0akewaw9au30af5ngr0q6-evdgvgwwdd5j42az7gcosfbzm 192.168.137.140:2377
+	docker swarm join --token SWMTKN-1-1rd7brd57191zer4nw4if44oh524b0akewaw9au30af5ngr0q6-evdgvgwwdd5j42az7gcosfbzm 192.168.137.140:2377
 run command at other 2 machines
 
 	docker swarm join --token SWMTKN-1-1rd7brd57191zer4nw4if44oh524b0akewaw9au30af5ngr0q6-evdgvgwwdd5j42az7gcosfbzm 192.168.137.140:2377
@@ -33,7 +32,6 @@ run command at first machine
 get following hints:
 
 	To add a worker to this swarm, run the following command:
-
 	docker swarm join --token SWMTKN-1-1rd7brd57191zer4nw4if44oh524b0akewaw9au30af5ngr0q6-a5x1syrylfl15g35mejj8femu 192.168.137.140:2377
 
 run command at other 2 machines
