@@ -2,7 +2,7 @@
 very simple web server for testing loadbalance of docker swarm 
 
 # install docker
-_centosi 7_
+_centOs 7_
 
 	bash script/i4centos.sh
 
