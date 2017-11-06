@@ -1,7 +1,14 @@
 # docker-web1
 very simple web server for testing loadbalance of docker swarm 。
-two server is provided : one is based nodejs  , and anthor is based busybox and nc ,locating at nc-web.
+two server is provided : 
++ aneotop/web1 , which is based on nodejs  
 
+	> docker run --rm -p 80:8888 aneotop/web 
+	
++ aneotop/web1:nc which is based on busybox and nc ,locating at nc-web.
+	
+	> docker run --rm -p 80:1500 aneotop/web:nc
+ 
 # install docker
 _centOs 7_
 
