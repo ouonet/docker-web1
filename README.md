@@ -3,8 +3,11 @@ very simple web server for testing loadbalance of docker swarm
 
 # install docker
 _centosi 7_
+
 	bash script/i4centos.sh
+
 _ubuntu 16_
+
 	bash script/i4ubuntu.sh
 
 # init swarm clust
