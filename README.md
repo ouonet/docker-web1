@@ -3,7 +3,7 @@ very simple web server [docker image](https://hub.docker.com/r/aneotop/web1/) fo
 two server images are provided : 
 + <a href='https://github.com/ouonet/docker-web1/blob/master/nc-web/Dockerfile' target="_blank">aneotop/web1</a> , which is based on nodejs  
 
-	> docker run --rm -d -p 80:8888 aneotop/web 
+	> docker run --rm -d -p 80:1500 aneotop/web 
 	
 + <a href="https://github.com/ouonet/docker-web1/blob/master/Dockerfile" target="_blank">aneotop/web1:nc</a> which is based on busybox and nc ,locating at nc-web.
 	
